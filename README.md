@@ -36,7 +36,7 @@ module.exports = function(grunt) {
 
 ## Test Coverage
 
-Test coverage support is provided by [node-jscoverage](https://github.com/visionmedia/node-jscoverage) while source code is _coverage enabled_ with [BlancketJS](http://blanketjs.org/).
+Test coverage support is provided by [node-jscoverage](https://github.com/visionmedia/node-jscoverage), while source code is _coverage enabled_ with [BlancketJS](http://blanketjs.org/).
 
 In order to activate test coverage you need to create a new configuration for the `mocha-chai-sinon` task and name it `coverage`.  
 **The name matter!**
@@ -61,7 +61,7 @@ In order to activate test coverage you need to create a new configuration for th
         }
     }
 
-By default `mocha-chai-sinon` add test coverage support to all loaded files who match the `/project-folder/src/` path but you can configure it with the `coverage.options.filter` option.
+By default `mocha-chai-sinon` adds test coverage support to all loaded files which match the `/project-folder/src/` path, but you can configure it with the `coverage.options.filter` option.
 
 
 
